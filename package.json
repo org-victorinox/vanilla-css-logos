@@ -1,0 +1,23 @@
+{
+  "name": "logos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "./node_modules/.bin/node-sass ./source/style.scss ./dist/style.css --output-style compressed",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanilla-css/logos.git"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanilla-css/logos/issues"
+  },
+  "homepage": "https://github.com/vanilla-css/logos#readme",
+  "dependencies": {
+    "node-sass": "^3.10.1"
+  }
+}
