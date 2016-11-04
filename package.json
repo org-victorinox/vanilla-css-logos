@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
+    "start:dev": "./node_modules/.bin/node-sass ./source/style.scss ./dist/style.css --watch",
     "start": "./node_modules/.bin/node-sass ./source/style.scss ./dist/style.css --output-style compressed",
     "test": ""
   },
