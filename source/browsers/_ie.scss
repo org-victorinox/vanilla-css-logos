@@ -76,7 +76,7 @@
   }
 }
 
-.inside-top:before,
+.inside-top,
 .inside-top:after,
 .inside-bottom:before {
   border-width: 3px;
@@ -90,7 +90,7 @@
 
 .inside-top {
   top: 96px;
-  left: 127px;
+  left: 136px;
   width: 140px;
   height: 74px;
   border-radius: 80px 80px 0 0 / 73px 73px 0 0;
@@ -100,7 +100,7 @@
   z-index: 2;
   &:before {
     top: 7px;
-    left: 9px;
+    left: 5px;
     width: 124px;
     height: 60px;
     border-radius: 60px 62px 0 0 / 60px 62px 0 0;
@@ -111,7 +111,7 @@
   }
   &:after {
     top: 111px;
-    left: 3px;
+    left: -4px;
     width: 136px;
     height: 82px;
     border-radius: 0 0 82px 82px / 0 0 73px 73px;
@@ -133,8 +133,8 @@
   background: #fff;
   z-index: 2;
   &:before {
-    top: -10px;
-    left: 123px;
+    top: -7px;
+    left: 128px;
     width: 134px;
     height: 36px;
     border-right: 0;
