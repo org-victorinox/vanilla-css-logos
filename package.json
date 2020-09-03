@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/vanilla-css/logos#readme",
   "dependencies": {
-    "node-sass": "^3.10.1"
+    "node-sass": "^4.14.1"
   }
 }
